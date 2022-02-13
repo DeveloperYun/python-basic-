@@ -19,7 +19,7 @@ for _ in range(3):
 
 con.commit()
 cur.execute("select * from productTable")
-print("%5s %10s %5s %5s"%("제품코드","제품명","가격(만)","재고수량"))
+print("%5s %10s %5s %5s"%("제품 코드","제품명","가격(만)","재고수량"))
 print("-----------------------------------------------------------")
 while True:
     row = cur.fetchone()
